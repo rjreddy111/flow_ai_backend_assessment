@@ -1,0 +1,57 @@
+POST http://localhost:5001/api/categories 
+Content-Type: application/json
+
+{
+    "name":"Outing", 
+    "type":"expense"
+}
+
+
+### 
+GET http://localhost:5001/api/categories
+
+
+### 
+POST http://localhost:5001/api/transactions 
+Content-Type: application/json 
+
+{
+  "type": "income",
+  "category":2 ,  
+  "amount": 180.75,
+  "date": "2024-10-23",
+  "description": "Bought groceries"
+}
+
+
+### 
+GET http://localhost:5001/api/transactions
+
+### 
+GET http://localhost:5001/api/transactions/1
+
+### 
+PUT http://localhost:5001/api/transactions/1 
+Content-Type: application/json 
+
+{
+ 
+  "type": "expense",
+  "category": 1,
+  "amount": 130.75,
+  "date": "2024-10-23",
+  "description": "Bought groceries"
+}
+
+
+
+### 
+DELETE  http://localhost:5001/api/transactions/3
+
+
+
+
+
+
+### 
+GET http://localhost:5001/api/summary
