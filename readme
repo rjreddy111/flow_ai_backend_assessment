@@ -1,0 +1,27 @@
+Steps to run the Code :
+
+1. "npm install" to install all dependencies
+2. "node app.js" to run the server after entering into the exact path
+
+deployed url :https://flow-ai-backend-assessment.onrender.com/api/
+
+for  categories :
+ https://flow-ai-backend-assessment.onrender.com/api/categories
+
+
+for transaction : 
+https://flow-ai-backend-assessment.onrender.com/api/transactions
+
+
+
+
+technologies used: 
+1. SQLite for Database, 
+2. Express framework
+
+
+packages used : 
+1. express
+2. cors 
+3. sqlite 
+4. sqlite3
